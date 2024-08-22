@@ -16,7 +16,7 @@ body {
 }
 
 section {
-    margin: 20px 0;
+    margin: 40px 0;
 }
 
 footer {
@@ -24,7 +24,7 @@ footer {
     background-color: var(--main-color-earm-exlight);
 }
 
-footer p {
+footer>p {
     background-color: var(--main-color-warm-light); 
 }
 

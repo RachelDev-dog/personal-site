@@ -86,9 +86,10 @@ li:hover {
 
 img {
     width:300px;
+    max-width:95%;
 }
 
-@media screen and (max-width:400px) {
+@media screen and (orientation:portrait) {
     .image-container {
         display:block;
 
@@ -101,6 +102,10 @@ img {
     list-style-type: none;
     background-color: var(--main-color-warm-light);
     padding: 8px;
+    }
+    
+    nav li {
+        max-width:100%;
     }
     
 }

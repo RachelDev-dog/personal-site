@@ -99,6 +99,7 @@ img {
     }
     
     nav ul {
+    display: block;
     list-style-type: none;
     background-color: var(--main-color-warm-light);
     padding: 8px;

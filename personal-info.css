@@ -88,17 +88,16 @@ img {
     width:300px;
 }
 
-@media screen and (max-width:600px) {
+@media screen and (max-width:400px) {
     .image-container {
-        display:flex;
-        flex-direction: column;
+        display:block;
+
     }
     img {
         max-width:95%;
     }
     
     nav ul {
-    display:inline;
     list-style-type: none;
     background-color: var(--main-color-warm-light);
     padding: 8px;

@@ -24,7 +24,9 @@ footer {
     background-color: var(--main-color-earm-exlight);
 }
 
-
+footer p {
+    background-color: var(--main-color-warm-light); 
+}
 
 h1 {
     color: var(--font-color-main-dark);

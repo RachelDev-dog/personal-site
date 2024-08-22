@@ -57,7 +57,7 @@ nav ul {
     flex-direction: row;
     list-style-type: none;
     background-color: var(--main-color-warm-light);
-    padding: 8px;
+
 }
 
 nav li {

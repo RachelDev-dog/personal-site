@@ -89,8 +89,12 @@ img {
 }
 
 @media screen and (min-width:600px) {
-    img {
-        width:50vw;
-        background-size:100% 100%;
+    .image-container {
+        flex-direction: column;
     }
+    img {
+        max-width:95%;
+    }
+    
+}
 

@@ -84,9 +84,10 @@ li:hover {
     background-color: var(--main-color-cool-dark);
 }
 
-img {
-    padding: 10px;
-    width: 95%;
-    
-}
+
+@media screen and (min-width:600px) {
+    img {
+        width:50vw;
+        background-size:100% 100%;
+    }
 

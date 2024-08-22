@@ -1,0 +1,91 @@
+:root {
+    --main-color-cool-light: #DAF7A6;
+    --main-color-cool-dark:#117a65;
+    --main-color-warm-dark: #900C3F;
+    --main-color-warm-light:#FF5733;
+    --main-color-earm-exlight: #FFC300;
+    --font-color-main-dark: #1c2833;
+    --font-color-main-light: #edf1f4;
+}
+
+body {
+    font-family: monospace;
+    color: var(--font-color-main-light);
+    background-color: #1c2833;
+    
+}
+
+h1 {
+    color: var(--font-color-main-dark);
+    font-size: 3.5rem;
+    background: var(--main-color-earm-exlight);
+    margin: 0;
+    padding: 10px;
+    
+
+}
+
+h2 {
+    color: var(--main-color-cool-dark);
+    font-size: 2rem;
+    background-color: #DAF7A6;
+    padding: 10px
+}
+
+.emoji {
+    font-size: 2rem;
+    margin:0 10px;
+}
+
+nav ul {
+    display:flex;
+    flex-direction: row;
+    list-style-type: none;
+    background-color: var(--main-color-warm-light);
+    padding: 8px;
+}
+
+nav li {
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    background-color: var(--main-color-warm-exlight);
+}
+
+li a {
+    color: lightgray;
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+
+li:hover {
+    background-color: #900C3F;
+}
+
+.links-container {
+    display:flex;
+    flex-direction: row;
+    
+}
+
+.inner-links-container {
+    display:flex;
+    flex-direction: row;
+    border:10px solid #edf1f4;
+    padding: 5px;
+
+}
+
+
+.img-container {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    background-color: var(--main-color-cool-dark);
+}
+
+img {
+    padding: 10px;
+    
+}
+
